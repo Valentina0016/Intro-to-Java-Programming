@@ -25,13 +25,14 @@ public class Exercise_06_07 {
 		final int NUMBER_OF_YEARS = 30; // Number of years to display
 
 		// Prompt the user to enter the investment amount and interest rate
+		Double amount, annualInterestRate, FutureInvestmentValue,monthlyInterestRate, InterestRate
 		System.out.print("\nThe amount invested: ");
-		double amount = input.nextDouble();
+		amount = input.nextDouble();
 		System.out.print("Annual interest rate: ");
-		double annualInterestRate = input.nextDouble();
+		annualInterestRate = input.nextDouble();
 
 		// Get monthly interest rate
-		double monthlyInterestRate = annualInterestRate / 1200;
+		monthlyInterestRate = annualInterestRate / 1200;
 
 		// Print a table that displays future value for the years from 1 to 30
 		System.out.println("Years     Future Value"); // Table header
